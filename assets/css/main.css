@@ -49,12 +49,11 @@ p {
     color: white;
     font-size: 5em;
     margin-top: 0.6em;
-    transition: font-size 0.5s ease;
+    transition: font-size 0.5s ease, color 0.5s ease, margin-top 0.5s ease;
 }
 
 .socials i:hover {
     color: rgba(255, 255, 255, 0.7);
-    transition: all ease 0.5s;
 }
 
 .contact p {
