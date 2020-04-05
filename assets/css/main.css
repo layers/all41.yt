@@ -1,0 +1,132 @@
+html {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background: black;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: all ease 0.5s;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+p {
+    font-size: 4em;
+    transition: all 0.5s ease;
+}
+
+.logo {
+    height: 80px;
+    transition: all 0.5s ease;
+}
+
+.contact {
+    position: absolute;
+    left: 1%;
+    bottom: 0%;
+    transition: all 0.5s ease;
+}
+
+.socials {
+    position: absolute;
+    right: 1%;
+    bottom: 3%;
+    letter-spacing: 0.8em;
+    transition: all 0.5s ease;
+}
+
+.socials i {
+    color: white;
+    font-size: 5em;
+    margin-top: 0.6em;
+    transition: all 0.5s ease;
+}
+
+.socials i:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition: all ease 0.5s;
+}
+
+.contact p {
+    font-size: 2em;
+    transition: all 0.5s ease;
+}
+
+@media screen and (max-width: 1214px) {
+    p {
+        font-size: 3em;
+    }
+
+    .logo {
+        height: 3em;
+    }
+
+    .socials i {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .yt {
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 705px), (max-height: 680px) {
+    .center {
+        position: static;
+        top: initial;
+        left: initial;
+        transform: translate(0, 0);
+    }
+
+    .logo {
+        margin-top: 2em;
+    }
+
+    .yt {
+        margin-bottom: 5em;
+    }
+
+    .contact {
+        position: static;
+        top: initial;
+        right: initial;
+    }
+    
+    .socials {
+        position: static;
+        top: initial;
+        right: initial;
+        margin-bottom: 3em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 2em;
+    }
+
+    .socials i {
+        font-size: 3em;
+    }
+    
+    .contact {
+        margin-bottom: 2em;
+    }
+
+    .contact p {
+        font-size: 1.5em;
+    }
+}
