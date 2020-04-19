@@ -98,7 +98,7 @@ p {
     }
 }
 
-@media screen and (max-width: 705px), (max-height: 680px) {
+@media screen and (max-width: 910px), (max-height: 680px) {
     .center {
         position: static;
         top: initial;
