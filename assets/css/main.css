@@ -5,10 +5,53 @@ html {
 }
 
 .center {
+    width: 100vw;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+}
+
+.pages, .about, .partners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-info {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin: auto;
+    margin-top: 1em;
+    width: 25vw;
+    font-size: 1.4em;
+}
+
+.about-info i {
+    color: white;
+    font-size: 3em;
+}
+
+.pages {
+    margin-bottom: 5em;
+}
+
+.page {
+    transition: color 0.3s ease;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-size: 3em;
+}
+
+.partner {
+    height: 12em;
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+[active] {
+    text-decoration: underline solid white;
 }
 
 a {
@@ -21,23 +64,14 @@ a:hover {
 }
 
 p {
-    font-size: 4em;
+    font-size: 2em;
     transition: all 0.5s ease;
 }
 
 .logo {
-    height: 2em;
+    height: 3em;
     margin-bottom: 2em;
     transition: all 0.5s ease;
-}
-
-.district {
-    height: 4em;
-    margin-right: 2em;
-}
-
-.ingrooves {
-    height: 2em;
 }
 
 .contact {
@@ -96,11 +130,19 @@ p {
     .tt {
         height: 3em;
     }
+
+
 }
 
 @media screen and (max-width: 705px) {
     .yt {
         width: 90vw;
+    }
+
+    .about-info {
+        margin-top: 3em;
+        width: 70vw;
+        font-size: 1.4em;
     }
 }
 
