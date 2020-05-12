@@ -12,10 +12,20 @@ html {
     transform: translate(-50%, -50%);
 }
 
-.pages, .about, .partners {
+.pages, .about, .partners, .text {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.text a {
+    margin: 2em;
+    margin-top: 1.5em;
+    font-size: 2em;
+}
+
+.text a:hover {
+    cursor: pointer;
 }
 
 .about-info {
@@ -139,6 +149,10 @@ p {
         width: 90vw;
     }
 
+    .text a {
+        margin-top: 1em;
+    }
+    
     .about-info {
         margin-top: 3em;
         width: 70vw;
