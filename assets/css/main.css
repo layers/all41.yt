@@ -149,6 +149,10 @@ p {
         width: 90vw;
     }
 
+    .partner {
+        height: 8em;
+    }
+
     .text a {
         margin-top: 1em;
     }
