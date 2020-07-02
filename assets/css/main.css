@@ -15,6 +15,7 @@ html {
 .pages,
 .about,
 .partners,
+.copyright,
 .text {
   display: flex;
   flex-wrap: wrap;
@@ -35,7 +36,18 @@ html {
   cursor: pointer;
 }
 
-.about-info {
+.copyright-image {
+  margin: auto;
+  max-width: 30vw;
+}
+
+.copyright-text {
+  text-align: left;
+  font-size: 1.6em !important;
+}
+
+.about-info,
+.copyright-text {
   margin-left: 1em;
   margin-right: 1em;
   margin: auto;
@@ -179,6 +191,21 @@ p {
     top: initial;
     left: initial;
     transform: translate(0, 0);
+  }
+
+  .copyright {
+    display: initial;
+  }
+
+  .copyright-image {
+    max-width: 80vw;
+    margin-top: 2em;
+  }
+
+  .copyright-text {
+    margin-top: 3em;
+    width: 70vw;
+    font-size: 1.4em;
   }
 
   .logo {
